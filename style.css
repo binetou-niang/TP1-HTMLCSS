@@ -1,0 +1,450 @@
+ ul{
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+ ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 18px 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+nav{
+    width: 100%;
+    overflow: hidden;
+    opacity: 10;
+    background-color: #8fd4b9;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    padding-top: 15px;
+    text-align: center;
+    font-weight: 1.5rem;
+    font-size: bolder;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#imageprincipale{
+    background: url(médias/libreville20\ 1.png) no-repeat, fixed 50% 50%;
+    background-size: cover;
+    height: 460px;
+}
+.circles{
+    padding-top: 350px;
+}
+#mairie{
+    opacity: 100%;
+    width: 195px;
+    border-radius: 50%;
+    height: 195px;
+    background-color: #009e60;
+    padding-left: 15px;
+}
+
+.ville{
+    padding-top: 80px;
+}
+.ville h2{
+    padding-top: 30px;
+    font-family:  sans-serif;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+.ville ul{
+    width: 90%;
+    background-color:whitesmoke ;
+    height: 60px;
+    border-top: 4px solid green;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+span{
+    text-decoration: underline 10px solid #8fd4b9 ;
+}
+
+.img{
+    width: 170px;
+    border-radius: 50%;
+    height: 170px;
+    background-color: #ffffff;
+    padding-left: 15px;
+    padding-top: 10px;
+    border: #009e60 2px solid;
+}
+#image{
+    padding: 30px;
+}
+.Elementul{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    align-items: center;
+}
+#texte{
+    background-color: #8fd4b9;
+    width: 50%;
+    bottom: 5%;
+    height: 70vh;
+    margin-left:5% ;
+    border-radius: 4px;
+    padding-top: 20px;
+    font-size: 22px;
+    padding: 15PX;
+    font-family: sans-serif;
+    line-height: 35px;
+}
+
+#image{
+    float: right;
+    bottom: 70%;
+}
+
+#texte, #para{
+    display: inline-block;
+}
+#para{
+    float: right;
+    padding-top: 20px;
+    padding-right: 15%;
+    font-family:  sans-serif;
+    font-size: 1.5rem;
+}
+#presentation{
+    color: #3183f7;
+}
+.ulactus{
+     list-style: none;
+    display: flex;
+    padding: 10px;
+}
+.actualités ul{
+    width: 90%;
+    background-color:whitesmoke ;
+    height: 60px;
+    border-top: 4px solid green;
+    padding-left: 25px;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+h2{
+    padding-top: 30px;
+    font-family:  sans-serif;
+    text-transform: uppercase;
+}
+.actualités{
+    padding-top: 20px;
+}
+.container{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    flex: 3;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card .date{
+    background: #fcd116;
+    color: #000;
+    padding: 5px;
+    font-weight: bold;
+    width: 30%;
+    margin-left: 70%;
+    position: relative;
+    top: -20px;
+    margin-right: 30
+}
+.card .description{
+    padding: 10px;
+    color: #333;
+}
+.calendrier{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20;
+   
+}
+.cal h3, .letter h3{
+    margin-bottom: 10px;
+    color: #333;
+}
+.cal{
+    background-color: #feeda1;
+    width: 100%;
+    height: 340px;
+}
+.cal table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+.cal button{
+    background-color: black;
+    color: white;
+}
+#min{
+    background-color: red;
+}
+.cal h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 75%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.cal th, .cal td{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+#h5{
+    margin-left: 25%;
+    padding-top: 5%;
+}
+.letter{
+    padding-top: 10%;
+    background: #8fd4b9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 125%;
+    margin-top: 20%;
+}
+.letter h4{
+    text-align: center;
+    color: #3183f7;
+
+}
+.letter p{
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    padding:  0 30px;
+    font-style: 22px;
+    text-align: center;
+    padding-top: 10px;
+}
+.letter form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.letter input{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 30px;
+    margin-top: 20px;
+    padding-top: 15px;
+    background-color: #5fb2ab;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    color: white;
+}
+.letter button{
+    padding: 10px;
+    background: #ffd700;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font: 1em sans-serif;
+    margin: 30px;
+    font-size: 22px;
+    color: #3183f7;
+    border-radius: 20px;
+    margin-top: -20px;
+}
+.menu ul{
+    width: 90%;
+    background-color:whitesmoke ;
+    height: 60px;
+    border-top: 4px solid green;
+    padding-left: 25px;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-left: 30px;
+}
+#dechets{
+    color: #3183f7;
+}
+.corbeille{
+    background-color: #8fd4b9;
+    width: 50%;
+    bottom: 5%;
+    height: 70vh;
+    margin-left:5% ;
+    border-radius: 4px;
+    padding-top: 20px;
+    font-size: 24px;
+    padding: 15PX;
+    font-family: sans-serif;
+    
+}
+.imgcorbeille{
+    float: right;
+    padding-top: 80px;
+    
+}
+.corbeille h3{
+    font-size: 22px;
+    font-weight: "verdana";
+    padding-top: 20px;
+}
+.corbeille p{
+    line-height: 40px;
+    padding-top: 20px;
+}
+.corbeille button{
+    margin-left: 170px;
+    height: 70px;
+    text-align: center;
+    margin-top: -200px;
+    font-size: 24px;
+    color: #3a75c4;
+    background-color: #ffd700;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 30px;  
+    top: 2822px;
+}
+    
+.container2{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 2rem;
+}
+.droite{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.buttons p{
+    margin-bottom: 30px;
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#button1 button{
+    background-color: #3a75c4;
+    box-shadow: #3a75c4;
+    color: #ddd;
+    width: 100px;
+    height: 50px;
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+ }
+ #button2 button{
+    background-color: #9e0000;
+    box-shadow: #9e0000;
+    color: #ddd;
+    width: 100px;
+    height: 50px;
+    font-size: 2.5rem;
+ }
+ #button3 button{
+    background-color: #009e60;
+    box-shadow: #009e60;
+    color: #ddd;
+    width: 100px;
+    height: 50px;
+    font-size: 2.5rem;
+    font-family:  sans-serif;
+ }
+#p{
+    color: black;
+    text-align: right;
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+ a{
+    text-decoration: none;
+}
+.probleme{
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 40vh;
+    width: 80%;
+    border: 1px solid #3a75c4;
+    text-align: center;
+    margin-left: 30px;
+}
+.probleme h3{
+    color: #007bff;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 22px;
+    text-align: center;
+}
+.probleme p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+.probleme button{
+    background-color: #ffd700;
+    color: #3a75c4;
+    width: 100;
+    height: 20%;
+    border-radius: 30px;
+    font-family:  sans-serif;
+    font-size: 22px;
+}
+.changerville{
+    background-size: cover;
+    background: url(médias/libreville20\ 1.png) no-repeat, fixed 50% 50%;
+    background-size: cover;
+    height: 455px;
+    opacity: 80%;
+}
+.changerville h1{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 80px;
+    font-weight: bold;
+}
+.changerville form{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    height: 80px;;
+    font-size: 28px;
+}
+.changerville option{
+    background-color: #ffffff;
+    text-align: center;
+}
+.btn{
+    background-color: #ffd700;
+    cursor: pointer;
+    margin-left: 50%;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 30px;
+    margin-top: 50px;
+    color: #007bff;
+}
